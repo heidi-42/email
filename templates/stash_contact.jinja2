@@ -1,0 +1,8 @@
+{% extends "base.jinja2" %}
+
+{% set sender = "no-reply@boris.wtf" %}
+{% set subject = "[Ада] Код подтверждения" %}
+
+{%- block body -%}
+    Вот ваш код: {{ code }}. Действует 24 часа. Используйте с умом.
+{%- endblock -%}

@@ -1,0 +1,5 @@
+keyring==21.2.1
+fire==0.3.1
+aiohttp==3.6.2
+heidi==2020_07_26_1
+Jinja2==2.11.2

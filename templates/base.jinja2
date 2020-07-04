@@ -1,0 +1,9 @@
+From: {%- if sender %}
+          {{ sender }}
+      {%- else %}
+          {{ name }} <{{ address }}>
+      {% endif %}
+To: {{ recipients }}
+Subject: {{ subject }}
+
+{% block body %}{% endblock %}
